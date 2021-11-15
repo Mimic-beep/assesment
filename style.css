@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1553532434-5ab5b6b84993?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)
+      
+}
+
+h1{
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.container{
+    margin-left: 600px;
+    margin-top: 100px;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background-color: white;  
+    outline: black;
+}
+
+.inputs{
+    text-align: center;
+    margin-top: 0px;
+}
+
+label, input, button{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: grey;
+}
+
+input{
+    width: 330px;
+    background-color: #ecf0f3;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+ }
+
+button{
+    margin-top: 50px;
+    width: 330px;
+    background: gray;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900; 
+}
+
+
